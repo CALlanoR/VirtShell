@@ -2,7 +2,12 @@ Roadmap
 =======
 + Create virtshell_monitoring_agent
 + Add unit tests and integration tests
-+ Create a kvm plugin
++ Plugins:
+	+ Create lxc/lxd plugin
+	+ Create a kvm plugin
+	+ Create virtualbox plugin
+	+ Create vmware plugin
+	+ Create hyper-v plugin
 + Change dockerfile to modify hostname in container
 + Add mutex lock in sqlite connection
 + Validate the json input, mandatory fields
